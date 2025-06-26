@@ -1,0 +1,1782 @@
+[
+  {
+    "content": "This book is designed for 9th grade students and covers foundational concepts in computer science and IT. It includes five core units:\n\n1. Problem Solving\n2. Binary System\n3. Networks\n4. Data and Privacy\n5. Designing Website\n\nEach unit includes a range of subtopics, exercises, and practical examples to help students build logical thinking, technical skills, and digital awareness.",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Book Overview",
+      "topic": "Introduction",
+      "subtopic": "",
+      "type": "theory"
+    }
+  },
+  {
+    "content": "Index:\n1. Problem Solving (Page 1)\n2. Binary System (Page 33)\n3. Networks (Page 53)\n4. Data and Privacy (Page 73)\n5. Designing Website (Page 98)\nAnswers (Page 117)\nGlossary (Page 118)\nIndex (Page 119)",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Book Overview",
+      "topic": "Table of Contents",
+      "subtopic": "",
+      "type": "index"
+    }
+  },
+  {
+    "content": "Learning Outcomes of Unit 1: Problem Solving\n- Defining a problem\n- Understanding a problem\n- Planning a solution\n- Defining candid solutions\n- Selecting the best solution\n- Defining and using flowcharts\n- Writing and evaluating algorithms\n- Understanding test data, verification, and validation\n- Identifying and correcting errors using trace tables and invalid inputs",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 1: Problem Solving",
+      "topic": "Students' Learning Outcomes",
+      "subtopic": "",
+      "type": "learning_outcomes"
+    }
+  },
+  {
+    "content": "In order to solve a problem, it is important to follow a systematic approach. In the following we discuss different steps that we can follow to solve a problem systematically.",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 1: Problem Solving",
+      "topic": "1.1 Problem Solving Steps",
+      "subtopic": "",
+      "type": "theory"
+    }
+  },
+  {
+    "content": "A well-defined problem is the one that does not contain ambiguities. All the conditions are clearly specified and it has a clear goal. It is easy to understand and solve.\n\nGiven a problem statement, first we need to see whether the problem is defined well or not. If the problem is not defined well then we can use one of the following strategies to define the problem:\n\nGain Background Knowledge: We try to know the situation and circumstances in which the problem is happening. In this way, we can identify the given state. It also helps to know what a good solution will look like. How we shall be able to measure the solution.\n\nUse Guesses: We try to guess the unknown information through appropriate guesses. These guesses may be bases upon our past experiences.",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 1: Problem Solving",
+      "topic": "1.1 Problem Solving Steps",
+      "subtopic": "1.1.1 Defining a Problem",
+      "type": "theory"
+    }
+  },
+  {
+    "content": "It is important to understand the problem before jumping into the solution of the problem. For example, a riddle or a puzzle can be answered only after clear understanding. A clear understanding of a problem makes it easier to solve and helps to save money, time and resources. Understanding of a problem usually includes identification of the 5 Ws (what, who, when, where, and why). Problem analysis is the process to figure out these 5 Ws from a problem statement. Problem analysis helps to understand a given problem.\n\nThese are the basic elements which lead towards the solution of a given problem.\n\nExample Problem:\n\"Suppose your class teacher assigns you a task to prepare a list of students in your school whose names start with letter 'A'. The list is required in order to prepare an alphabetical directory of all school students and there is only one week to complete the task.\"\n\n5Ws Analysis:\n- What: List of students' names starting with letter 'A'.\n- Who: Students.\n- Why: To prepare the directory of students.\n- When: Within a week.\n- Where: School.",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 1: Problem Solving",
+      "topic": "1.1 Problem Solving Steps",
+      "subtopic": "1.1.2 Understanding a Problem",
+      "type": "theory"
+    }
+  },
+  {
+    "content": "Activity 1.1: Students are put in groups of two or three, and each group is provided two different lists of students' names.\n\nOne list contains the marks of students in mathematics subject while the other list is for physics subject. Each group is supposed to prepare the following lists:\n\na) Top 5% students in mathematics.\nb) Top 5% students in physics.\nc) Students having more than 90% marks in both subjects.\n\nIdentify 5 Ws for this problem.",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 1: Problem Solving",
+      "topic": "1.1 Problem Solving Steps",
+      "subtopic": "1.1.2 Understanding a Problem",
+      "type": "activity1.1"
+    }
+  },
+  {
+    "content": "After analyzing a problem, we formulate a plan that may lead us towards the solution of a problem. This phase includes finding the right strategy for problem solving. Some of the strategies are:\n\n- Divide and Conquer: This strategy divides a complex problem into smaller problems.\n- Guess, Check and Improve: The designer guesses a solution to a problem and then checks the correctness of the solution. If the solution is not according to expectations, then he/she refines the solution. The refinement is an iterative process.\n- Act it Out: In this strategy the designer defines the list of \"to-do\" tasks. Afterwards he/she performs the task.\n- Prototype (Draw): This technique draws a pictorial representation of the solution. It is not the final solution. However, it may help a designer to understand the important components of the solution.\n\nThe selection of a strategy depends upon the problem. It is quite important that one strategy may be more suitable to implement a solution than the other one. Very specifically, the selection of the strategy depends upon the nature of a problem.",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 1: Problem Solving",
+      "topic": "1.1 Problem Solving Steps",
+      "subtopic": "1.1.3 Planning a Solution",
+      "type": "theory"
+    }
+  },
+  {
+    "content": "The word candid refers to something spontaneous and unplanned. For example, if you are asked to find number of students in your school who can play cricket, you can estimate by finding cricket players in your class and then multiplying it by the total number of classes in your school. Your answer in this way is the candid solution. To find exact number of cricket players, you have to opt some other way, like visiting each class or getting data from teachers. One can think of a candid solution anytime. A candid solution can help to save time. It is not necessary that the candid solution is the actual solution of a problem.",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 1: Problem Solving",
+      "topic": "1.1 Problem Solving Steps",
+      "subtopic": "1.1.4 Defining Candid Solutions",
+      "type": "theory"
+    }
+  },
+  {
+    "content": "Your task is to find average height of your class fellows. Give a candid answer and also the method to find the exact solution.\n\nOne method is to use a measuring tape. Mark the height on the tape and then read the exact measurement from the tape. After recording the height of every student, you can calculate the average height of all the students in your classroom.\n\nOr you can even find out the candid height of a student through some object of known height, like a book. Let’s say that the height of your textbook is 8cm. You can mark the height of the book on a wall. Using the book several times, you can make a scale with intervals of 8cm. Then, by standing next to the wall you can get a candid solution to the student’s height.",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 1: Problem Solving",
+      "topic": "1.1 Problem Solving Steps",
+      "subtopic": "1.1.4 Defining Candid Solutions",
+      "type": "activity 1.2"
+    }
+  },
+  {
+    "content": "Sometimes we find more than one solutions of a problem and select the best one amongst them.\n\nFor example, assume that names of all the students in your school are available on a website and you are asked to search a particular name. You can solve this search problem by either of the following methods:\n\n1. Look at each name on the website one by one until the name is found or the list is over.\n2. Take printouts and search the required name.\n3. Copy names, put them in Excel sheet and sort there in alphabetical order. Searching in a sorted list is comparatively easy.\n4. Just press Ctrl+F, when the list is available in a web browser. You can type the name to search automatically.\n\nThere can be other solutions as well. Now we can identify a solution that has less number of steps or that seems more effective based on some criteria.",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 1: Problem Solving",
+      "topic": "1.1 Problem Solving Steps",
+      "subtopic": "1.1.5 Selecting the Best Solution",
+      "type": "theory"
+    }
+  },
+  {
+    "content": "Flowcharts are helpful to know about the steps used to solve a problem. In the following, we discuss the concept of flowcharts in detail.",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 1: Problem Solving",
+      "topic": "1.2 Flowcharts",
+      "subtopic": "",
+      "type": "theory"
+    }
+  },
+  {
+    "content": "A flowchart is a graphical presentation of the steps to solve a problem. We use symbols for each step, and these symbols are connected with the help of arrows to show the flow of processing.",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 1: Problem Solving",
+      "topic": "1.2 Flowcharts",
+      "subtopic": "1.2.1 Definition",
+      "type": "theory"
+    }
+  },
+  {
+    "content": "In problem solving, flowcharts can be used to plan a solution. If a flowchart is already there, we can quickly understand the way a problem is solved. It is more effective to visualize a solution graphically than a text. A graphical representation also makes it effective to verify whether a solution is correct or not. It is also a good way to communicate the solution of a problem to other people.",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 1: Problem Solving",
+      "topic": "1.2 Flowcharts",
+      "subtopic": "1.2.2 Importance of Flowcharts in Problem Solving",
+      "type": "theory"
+    }
+  },
+  {
+    "content": "In a flowchart we use input, output, decision making and processing. These concepts are described in the following: Input means taking data from a user, processing it and give some output as shown in Figure 1-7. For a flowchart the requirements are to know about:\n\n- Inputs: Input means taking data from the user. It is important to know, how many and what type of inputs are required.\n- Processing: A flowchart also contains processing steps. The processing steps are used for performing calculations and storing the results of calculations. These may include increasing/decreasing a value, adding/multiplying/dividing two values etc.\n- Decision Making: To determine whether a statement is true or false, and taking appropriate steps accordingly, is called decision making.\n- Outputs: Outputs are used to display information and usually this information exhibits the processed results.",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 1: Problem Solving",
+      "topic": "1.2 Flowcharts",
+      "subtopic": "1.2.3 Determining Requirements for a Flowchart",
+      "type": "theory"
+    }
+  },
+  {
+    "content": "Flowcharts explain a process clearly through symbols and text. They use special shapes to represent different types of actions or steps in a process.\n\nLines and arrows show the flow of the steps. Table 1-1 shows some of the most widely used symbols in flowcharts.\n\n| Symbol | Description |\n|--------|-------------|\n| Flow line | It is used to determine the flow of steps in a flowchart. |\n| Terminal | It indicates start and end of a flowchart. |\n| Process | It represents operations to change values. |\n| Decision | It shows a conditional operation that determines which one of the two paths to take. The operation is commonly a yes/no question or a true/false test. |\n| Input/Output | It indicates the input of data from user or displaying results to user. |\n| Connector | If a flowchart doesn't fit on a page, then we use connector to connect parts of a flowchart on different pages. |",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 1: Problem Solving",
+      "topic": "1.2 Flowcharts",
+      "subtopic": "1.2.4 Flowchart Symbols",
+      "type": "theory"
+    }
+  },
+  {
+    "content": "In this section we study problem solving using flowcharts. In a flowchart, input means to get data from some input device and store in computer memory. A data in memory is given some particular name. We access data with respect to its given name to perform some computation from which results are obtained. The results are stored in computer memory and we print (display) the results on some output device.",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 1: Problem Solving",
+      "topic": "1.2 Flowcharts",
+      "subtopic": "1.2.5 Examples of Flowcharts",
+      "type": "theory"
+    }
+  },
+  {
+    "content": "Activity 1.3:\nInvestigate both the approaches presented to find a maximum value among three numbers and compare them. Which approach has advantage(s) over the other? Write your findings and discuss with your class teacher.",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 1: Problem Solving",
+      "topic": "1.2 Flowcharts",
+      "subtopic": "1.2.5 Examples of Flowcharts",
+      "type": "activity 1.3 "
+    }
+  },
+  {
+    "content": "Activity 1.4:\nIn the above flowchart, a user is supposed to provide the input value from 1 to 7, but it is possible that the input value is less than 1 or more than 7. We need to take care of such values and display appropriate messages, like \"Your value is less than 1\" or \"Your value is more than 7\". Modify the above flowchart with respect to proper error messages.",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 1: Problem Solving",
+      "topic": "1.2 Flowcharts",
+      "subtopic": "1.2.5 Examples of Flowcharts",
+      "type": "activity 1.4"
+    }
+  },
+  {
+    "content": "Studying algorithms is a fundamental part of computer science. In this section, we discuss the concept of algorithms in detail.",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 1: Problem Solving",
+      "topic": "1.3 Algorithm",
+      "subtopic": "",
+      "type": "theory"
+    }
+  },
+  {
+    "content": "An algorithm is a set of steps to solve a problem. It is written in a natural language, so it is easily understandable by humans. For example, to solve the problem of preparing tea, we can follow the following steps:\n\na) Start.\nb) Take a kettle.\nc) Pour water in it.\nd) Put the kettle on fire.\ne) Add sugar and milk.\nf) Wait till it boils.\ng) Remove the kettle from fire.\nh) End.\n\nThe above set of steps can be called an algorithm for tea preparation.\n\nWe can also solve certain problems with the help of a computer. For that purpose, we first formulate an algorithm for the problem and then translate that algorithm into a set of instructions for the computer. Usually an algorithm takes an input and then after processing produces some output as shown in Figure 1-6.",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 1: Problem Solving",
+      "topic": "1.3 Algorithm",
+      "subtopic": "1.3.1 Definition",
+      "type": "theory"
+    }
+  },
+  {
+    "content": "Do you know?\nThe word \"algorithm\" comes from the name of Arabic writer Muhammad ibn Musa al-Khwarizmi.",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 1: Problem Solving",
+      "topic": "1.3 Algorithm",
+      "subtopic": "1.3.1 Definition",
+      "type": "do_you_know"
+    }
+  },
+  {
+    "content": "An algorithm has a vital role in problem solving as it provides a step-by-step guide to the problem solver. It is a complete description of the solution. Usually a computer programmer first writes an algorithm and then translates it into the code of some programming language. Sometimes, the designer of the program first makes a flowchart to solve a problem and then encodes the flowchart into an algorithm. Figure 1-8 shows the role of algorithm in problem solving.",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 1: Problem Solving",
+      "topic": "1.3 Algorithm",
+      "subtopic": "1.3.2 Role of Algorithms in Problem Solving",
+      "type": "theory"
+    }
+  },
+  {
+    "content": "There are different notations (keywords) to write an algorithm. We use the notations presented in Table 1-2 to write an algorithm.\n\n- Start: The starting point of an algorithm. Every algorithm must have one.\n- Input: Used to get input from the user and store in memory.\n- Set: Used to assign or update values.\n- If, else: Used to evaluate conditions (true/false).\n- Goto: Transfers control to another step.\n- Output: Displays results.\n- Stop: Marks the termination point.",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 1: Problem Solving",
+      "topic": "1.3 Algorithm",
+      "subtopic": "1.3.3 Formulation of an Algorithm",
+      "type": "theory"
+    }
+  },
+  {
+    "content": "Activity 1.6:\nThe figure shows a simple example of calculating average of three numbers, 25, 45 and 65. Write an algorithm with these fixed values to calculate and display average values. Note that in this case no input is required from a user.",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 1: Problem Solving",
+      "topic": "1.3 Algorithm",
+      "subtopic": "1.3.4 Examples of Algorithms",
+      "type": "activity 1.6"
+    }
+  },
+  {
+    "content": "Activity 1.7:\nChange the algorithm for finding volume of a Cylinder and Sphere. The formula for the volume of a Sphere is 4/3 × π × r³ where r is radius. The formula for the volume of cylinder is π × r² × h where r is radius and h is height.",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 1: Problem Solving",
+      "topic": "1.3 Algorithm",
+      "subtopic": "1.3.4 Examples of Algorithms",
+      "type": "activity 1.7"
+    }
+  },
+  {
+    "content": "Activity 1.8:\nChange the algorithm for finding the area of a triangle, rhombus, or trapezium.",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 1: Problem Solving",
+      "topic": "1.3 Algorithm",
+      "subtopic": "1.3.4 Examples of Algorithms",
+      "type": "activity 1.8"
+    }
+  },
+  {
+    "content": "There can be more than one algorithms to solve the same problem. Which one is better, depends upon the efficiency of the available solution algorithms. Efficiency of an algorithm is measured on the basis of two metrics:\n\n1. Number of steps\n2. Space used in computer memory\n\nExample: To solve 1 + 2 + 3 + ... + 99\n- One solution: sum iteratively\n- Another: use pairs like (1+99), (2+98)...\n- Best: Use formula n(n+1)/2\n\nThis example shows how algorithms vary in memory use and number of steps.",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 1: Problem Solving",
+      "topic": "1.3 Algorithm",
+      "subtopic": "1.3.5 Efficiency of Algorithms",
+      "type": "theory"
+    }
+  },
+  {
+    "content": "Do you know?\nThere are 64 squares on a chess board. If we place wheat upon each square such that one grain is placed on the first square, two on the second, four on the third, and so on (doubling the number of grains at each square), then there will be 18,446,744,073,709,551,615 grains of wheat on the chessboard at the finish.",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 1: Problem Solving",
+      "topic": "1.3 Algorithm",
+      "subtopic": "1.3.5 Efficiency of Algorithms",
+      "type": "do_you_know"
+    }
+  },
+  {
+    "content": "Activity 1.9:\nCompare the algorithm 9 presented in Section 1.3.4 with the following one and try to find which one is efficient. Note that both are solving the same problem. In order to answer this question, assume two values for n1 and n2 and start count the number of steps used in both algorithms.\n\nStep 1. Start\nStep 2. Input numbers, n1, n2\nStep 3. if n1 is odd, set n1 to n1 + 1\nStep 4. Output n1\nStep 5. Set n1 to n1 + 2\nStep 6. if n1 < n2 go to Step 4\nStep 7. End",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 1: Problem Solving",
+      "topic": "1.3 Algorithm",
+      "subtopic": "1.3.5 Efficiency of Algorithms",
+      "type": "activity 1.9"
+    }
+  },
+  {
+    "content": "Difference between an algorithm and a flowchart is just like the difference between a story and a movie. As we have studied that a flowchart is a graphical representation of the process to solve a problem but an algorithm writes the same steps in a human understandable language.\n\nAdvantages of a Flowchart:\n- Easy to draw\n- Easy to understand\n- Easy to identify errors\n- Easy to observe flow between steps\n\nDisadvantages of a Flowchart:\n- More time needed to draw\n- Difficult to modify\n\nAdvantages of an Algorithm:\n- Easy to write\n- Techniques are easy to understand\n- Helpful for large problems\n\nDisadvantages of an Algorithm:\n- Hard to modify\n- Flow between steps isn’t visible\n- Goto usage can cause confusion",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 1: Problem Solving",
+      "topic": "1.3 Algorithm",
+      "subtopic": "1.3.6 Difference between Algorithm and Flowchart",
+      "type": "theory"
+    }
+  },
+  {
+    "content": "After solving a problem, we need to test whether the solution is correct or not, and for testing, we need \"Test Data\". For example, if we want to test the algorithm (discussed earlier) to find the largest among three given numbers nQ, n1, and n2, then we need three values. These values can be positive, negative or zero, e.g., (nQ = 5, n1 = 15, n2 = 3), (nQ = 27, n1 = -6, n2 = 35), (nQ = 24, n1 = 0, n2 = 11), etc. So, for thinking about testing, we also need to think about test data.",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 1: Problem Solving",
+      "topic": "1.4 Test Data",
+      "subtopic": "",
+      "type": "theory"
+    }
+  },
+  {
+    "content": "Activity 1.10:\nAssume that you are given an automatic attendance system for testing. In this system, a camera observes each student entering in the classroom. The camera is connected to a computer which contains the database of pictures of all the students. The solution compares each student with the pictures in database and marks the attendance if picture is found there.\n\nYou are asked to provide test data for the system. Write your points in a way that can help the solution provider to check and improve quality of the solution. You can think about different dresses in different weathers, identical twins, different haircuts or any other points where one can look different in front of the camera.",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 1: Problem Solving",
+      "topic": "1.4 Test Data",
+      "subtopic": "",
+      "type": "activity 1.10"
+    }
+  },
+  {
+    "content": "Testing is essential to point out the defects and errors made during finding a solution to some problem. It helps in improving a solution. If one solves a problem and someone else uses that solution for commercial purposes, then the commercial activities depend upon the correctness of that solution. For example, if we develop a solution for finance management and some bank starts using it then any error in that solution may result in a financial loss. So, testing is important for a solution.",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 1: Problem Solving",
+      "topic": "1.4 Test Data",
+      "subtopic": "1.4.1 Importance of Testing",
+      "type": "theory"
+    }
+  },
+  {
+    "content": "Do you know?\nThe space shuttle Challenger STS-51L spaceflight ended in a tragedy on Jan. 28, 1986 only 73 seconds after liftoff.\n\nA car is delivered to a customer after testing. Upon launching a new car, it is usually tested with a robot driver who hits the car with a wall. It is used to test whether the air bags and other security systems are functioning or not. Moreover, it also allows the car designers to suggest further security measures to reduce the damage. This test can help to make a car safe. So, testing helps improve quality.",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 1: Problem Solving",
+      "topic": "1.4 Test Data",
+      "subtopic": "1.4.1 Importance of Testing",
+      "type": "do_you_know"
+    }
+  },
+  {
+    "content": "Creation of proper and sufficient test data is one of the key activities to improve quality of a solution. Each type of solution requires different data.\n\nTypes of Test Data include:\n\n• Valid test data: It is the test data that complies with the input requirements of the algorithm. If an algorithm is supposed to take a numeric value between 1 and 100 as input, then any value between 1 and 100 is a valid test data.\n\n• Invalid test data: It is the data that does not comply with the input requirements of the algorithm. It is necessary to make sure that the solution correctly works for invalid values, shows the relevant messages notifying the user that the provided input values are improper.\n\n• Boundary test data values: A solution is tested on extreme values. For example, to calculate interest we can consider principal amount as 0 or a very huge amount.\n\n• Wrong data formats: It is wise to check how the system reacts on entering data in an inappropriate format. For example, giving an alphabet as input when a numeric value is expected.\n\n• Absent data: It is also important to investigate that the solution still works if less number of inputs are given than expected. For example, if a system asks to enter driving license number, then every one cannot provide this information. It is important to see how the system reacts in such situations.",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 1: Problem Solving",
+      "topic": "1.4 Test Data",
+      "subtopic": "1.4.2 Types of Test Data",
+      "type": "theory"
+    }
+  },
+  {
+    "content": "Verification means to test if the solution is actually solving the same problem for which it was designed. For example, if you are asked to give a solution for calculating compound interest then verification means to know that it is giving results for compound interest not for the plain interest.",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 1: Problem Solving",
+      "topic": "1.5 Verification and Validation",
+      "subtopic": "1.5.1 Verification",
+      "type": "theory"
+    }
+  },
+  {
+    "content": "Validation means to test whether the solution is correct or not. For example, if you are asked to give a solution for calculating compound interest then validation means to know whether it is finding the correct compound interest or not. If a solution is verified, then it is validated with the help of test data as discussed in previous section.",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 1: Problem Solving",
+      "topic": "1.5 Verification and Validation",
+      "subtopic": "1.5.2 Validation",
+      "type": "theory"
+    }
+  },
+  {
+    "content": "Example 1:\nLet's assume that you go to a pizza shop and order a chicken pizza. You state your requirement that it should be less spicy. You also expect that it would taste good. When the pizza arrives, you can observe that it is a chicken pizza. This is called verification. Now, when you eat the pizza, you can check whether it is less spicy or not, it tastes good or not. This is called validation.",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 1: Problem Solving",
+      "topic": "1.5 Verification and Validation",
+      "subtopic": "1.5.2 Validation",
+      "type": "example"
+    }
+  },
+  {
+    "content": "Example 2:\nLet's assume that you are asked to write an algorithm that takes as input a list of numbers. The algorithm should display the list arranged in ascending order. After writing the algorithm you submit it to your teacher. Your teacher provides a list of numbers to the algorithm. If your algorithm displays a list of numbers then it is verified. Instead if your algorithm displays an answer in yes or no, or displays something else, then it is not verified. If your algorithm is verified, your teacher moves to the next step of validation. He checks whether the list of numbers displayed are actually in ascending order or not. If the list is in ascending order and no element is missing then your solution is also validated.",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 1: Problem Solving",
+      "topic": "1.5 Verification and Validation",
+      "subtopic": "1.5.2 Validation",
+      "type": "example"
+    }
+  },
+  {
+    "content": "If an algorithm is failed during verification, then it is important to identify the root cause of failure and then to correct it. Sometimes the error is logical. It means the solution is working but not giving required results.\n\nFor example, to recruit students for our school volleyball team, we need students having height between 144 cm and 164 cm. To count qualified students, we develop the following algorithm:\n\nStep 1. Start\nStep 2. Set count to 0\nStep 3. Set all_heights to [154, 140, 155, 164, 144, 166, 160, 143]\nStep 4. For each height in the list all_heights\nStep 5. If height > 144 and height <= 164 then Set count to count + 1\nStep 6. Output count\nStep 7. Stop\n\nThe above algorithm works but does not count all students. There is a deliberate error on Step 5. The symbol > has been used instead of >= before the number 144. So, the students having height 144cm will not be counted. This is a logical error.",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 1: Problem Solving",
+      "topic": "1.6 Identification and Correction of Errors",
+      "subtopic": "",
+      "type": "example"
+    }
+  },
+  {
+    "content": "A trace table is a technique used to test algorithms, in order to make sure that no logical errors occur while the algorithm is being processed. The table usually takes the form of a multi-column, multi-row table, with each column showing names of data, and each row showing values of the data at each step.\n\n| Step  | count | all_heights                        | height |\n|-------|--------|-------------------------------------|--------|\n| 1     |        |                                     |        |\n| 2     | 0      | [154,140,155,164,144,166,160,143]   |        |\n| 3     | 0      | [154,140,155,164,144,166,160,143]   |        |\n| 4     | 0      |                                     | 154    |\n| 5     | 1      |                                     |        |\n| 4     | 1      |                                     | 140    |\n| 5     | 1      |                                     |        |\n| 4     | 1      |                                     | 155    |\n| 5     | 2      |                                     |        |\n| 4     | 2      |                                     | 164    |\n| 5     | 3      |                                     |        |\n| 4     | 3      |                                     | 144    |\n| 5     | 3      |                                     |        |\n| 4     | 3      |                                     | 166    |\n| 5     | 3      |                                     |        |\n| 4     | 3      |                                     | 160    |\n| 5     | 4      |                                     |        |\n| 4     | 4      |                                     | 143    |\n| 5     | 4      |                                     |        |\n| 6     |        |                                     |        |\n| 7     |        |                                     |        |",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 1: Problem Solving",
+      "topic": "1.6 Identification and Correction of Errors",
+      "subtopic": "1.6.1 Trace Table",
+      "type": "theory"
+    }
+  },
+  {
+    "content": "Testing an algorithm using invalid data ensures that the algorithm can gracefully handle unexpected data inputs. If an algorithm requires your age in number of days but you give date of birth as input then the algorithm may not work properly. The purpose of testing using invalid test data is to detect such situations. In this case error messages are shown as output. Moreover, this kind of testing helps you to improve the quality of solution.",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 1: Problem Solving",
+      "topic": "1.6 Identification and Correction of Errors",
+      "subtopic": "1.6.2 Using Invalid Data for Testing",
+      "type": "theory"
+    }
+  },
+  {
+    "content": "Activity 1.11:\nWrite all the above discussed algorithms keeping in mind the invalid test data inputs. Class teacher may divide class in few groups and assign them one or more algorithm(s). Students are supposed to discuss and rewrite algorithms so that upon invalid inputs, appropriate messages are displayed.",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 1: Problem Solving",
+      "topic": "1.6 Identification and Correction of Errors",
+      "subtopic": "1.6.2 Using Invalid Data for Testing",
+      "type": "activity 1.11"
+    }
+  },
+  {
+    "content": "• A problem is a matter or situation that needs to be dealt with and overcome.\n• Analysing a problem helps to solve that problem quickly.\n• A problem may have more than one solution but the best one is the solution comprising less number of steps or the solution is achieved in less amount of time.\n• An algorithm is a set of rules used for solving problems.\n• An algorithm takes some input, processes it, and gives result.\n• Algorithms are helpful in decision making.\n• Flowcharts consist of symbols used for graphical presentation of an algorithm.\n  Commonly used symbols for a flowchart are: input/output, decision, arrow, start and stop.\n• Validation means to test if the solution is according to the given problem.\n• Verification means whether the solution is giving the required results or not.\n• A trace table is a technique used to test algorithms.",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 1: Problem Solving",
+      "topic": "Summary",
+      "subtopic": "",
+      "type": "summary"
+    }
+  },
+  {
+    "content": "1. In a farm there are some cows and birds. If there are total 35 heads and 110 legs then how many cows and birds are there?",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 1: Problem Solving",
+      "topic": "Exercise",
+      "subtopic": "1.1 Answer the Following Questions",
+      "type": "question"
+    }
+  },
+  {
+    "content": "2. Define problem analysis. Explain your answer along with an example.",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 1: Problem Solving",
+      "topic": "Exercise",
+      "subtopic": "1.1 Answer the Following Questions",
+      "type": "question"
+    }
+  },
+  {
+    "content": "3. Define an algorithm and argue on its role and importance in problem solving.",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 1: Problem Solving",
+      "topic": "Exercise",
+      "subtopic": "1.1 Answer the Following Questions",
+      "type": "question"
+    }
+  },
+  {
+    "content": "4. Suppose a problem has multiple algorithms. How would you choose the most efficient one? Explain with examples.",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 1: Problem Solving",
+      "topic": "Exercise",
+      "subtopic": "1.1 Answer the Following Questions",
+      "type": "question"
+    }
+  },
+  {
+    "content": "5. How do you determine requirements for a flowchart?",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 1: Problem Solving",
+      "topic": "Exercise",
+      "subtopic": "1.1 Answer the Following Questions",
+      "type": "question"
+    }
+  },
+  {
+    "content": "6. Explain types of test data.",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 1: Problem Solving",
+      "topic": "Exercise",
+      "subtopic": "1.1 Answer the Following Questions",
+      "type": "question"
+    }
+  },
+  {
+    "content": "7. Describe a trace table.",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 1: Problem Solving",
+      "topic": "Exercise",
+      "subtopic": "1.1 Answer the Following Questions",
+      "type": "question"
+    }
+  },
+  {
+    "content": "mcq 1. Which solutions are not reached through proper algorithms or work planning?\n(i) Prepared solution (ii) Candid solution (iii) Strategized solution (iv) Best solution",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 1: Problem Solving",
+      "topic": "Exercise",
+      "subtopic": "1.2 Choose the Correct Option",
+      "type": "mcq"
+    }
+  },
+  {
+    "content": "mcq 2. __________ is a graphical representation of an algorithm.\n(i) Matrix (ii) Graph (iii) Flowchart (iv) Solution",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 1: Problem Solving",
+      "topic": "Exercise",
+      "subtopic": "1.2 Choose the Correct Option",
+      "type": "mcq"
+    }
+  },
+  {
+    "content": "mcq 3. Which symbol in the flowchart is used to either start or end the flowchart?\n(i) Terminal (ii) Connector (iii) Process (iv) Decision",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 1: Problem Solving",
+      "topic": "Exercise",
+      "subtopic": "1.2 Choose the Correct Option",
+      "type": "mcq"
+    }
+  },
+  {
+    "content": "mcq 4. ______ means to test if the required solution is there.\n(i) Verification (ii) Algorithm (iii) Validation (iv) Flowchart",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 1: Problem Solving",
+      "topic": "Exercise",
+      "subtopic": "1.2 Choose the Correct Option",
+      "type": "mcq"
+    }
+  },
+  {
+    "content": "mcq 5. In a ______ error, the solution is working but not giving required results.\n(i) Random error (ii) Logical error (iii) Syntax error (iv) Runtime error",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 1: Problem Solving",
+      "topic": "Exercise",
+      "subtopic": "1.2 Choose the Correct Option",
+      "type": "mcq"
+    }
+  },
+  {
+    "content": "1. Before problem solving, we need to first ______________ a problem.",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 1: Problem Solving",
+      "topic": "Exercise",
+      "subtopic": "1.3 Fill in the Blanks",
+      "type": "fill_in_the_blank"
+    }
+  },
+  {
+    "content": "2. An algorithm produces a defined set of ______.",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 1: Problem Solving",
+      "topic": "Exercise",
+      "subtopic": "1.3 Fill in the Blanks",
+      "type": "fill_in_the_blank"
+    }
+  },
+  {
+    "content": "3. A flowchart utilizes various ______ and _______ to map out the order of steps.",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 1: Problem Solving",
+      "topic": "Exercise",
+      "subtopic": "1.3 Fill in the Blanks",
+      "type": "fill_in_the_blank"
+    }
+  },
+  {
+    "content": "4. In flowcharts symbol O is used to show a ______.",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 1: Problem Solving",
+      "topic": "Exercise",
+      "subtopic": "1.3 Fill in the Blanks",
+      "type": "fill_in_the_blank"
+    }
+  },
+  {
+    "content": "5. ____ is used to test the solutions.",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 1: Problem Solving",
+      "topic": "Exercise",
+      "subtopic": "1.3 Fill in the Blanks",
+      "type": "fill_in_the_blank"
+    }
+  },
+  {
+    "content": "1. Input two numbers a and n2. Determine whether a divides n2 or not.",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 1: Problem Solving",
+      "topic": "Exercise",
+      "subtopic": "1.4 Draw the Flowcharts",
+      "type": "flowchart_question"
+    }
+  },
+  {
+    "content": "2. Input a year and determine whether it is a leap year or not.",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 1: Problem Solving",
+      "topic": "Exercise",
+      "subtopic": "1.4 Draw the Flowcharts",
+      "type": "flowchart_question"
+    }
+  },
+  {
+    "content": "3. Input a number and calculate its factorial.",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 1: Problem Solving",
+      "topic": "Exercise",
+      "subtopic": "1.4 Draw the Flowcharts",
+      "type": "flowchart_question"
+    }
+  },
+  {
+    "content": "4. Find LCM (Least Common Multiple) of two numbers.",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 1: Problem Solving",
+      "topic": "Exercise",
+      "subtopic": "1.4 Draw the Flowcharts",
+      "type": "flowchart_question"
+    }
+  },
+  {
+    "content": "5. Input a number and display its factors.",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 1: Problem Solving",
+      "topic": "Exercise",
+      "subtopic": "1.4 Draw the Flowcharts",
+      "type": "flowchart_question"
+    }
+  },
+    {
+    "content": "Unit 02: Binary Systems",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 2: Binary Systems",
+      "topic": "Chapter Overview",
+      "subtopic": "",
+      "type": "overview"
+    }
+  },
+  {
+  "content": "Learning Outcomes of Unit 2: Binary Systems\n- Introduction of number systems\n  - Describe following number systems with Examples\n    - Binary\n    - Decimal\n    - Hexadecimal\n- Number System Conversion\n  - Convert binary to decimal and decimal to binary number system\n  - Convert decimal to hexadecimal and hexadecimal to decimal number system\n  - Convert binary to hexadecimal and hexadecimal to binary number system\n- Memory and data storage\n  - What is memory?\n  - Understand how data is represented in a computer memory (with reference of bits and bytes)\n  - Storage device\n  - Difference between memory and storage devices\n- Measurement of size of computer memory.\n  Define following Terms\n    - Bit\n    - Byte\n    - Kilobyte\n    - Megabyte\n    - Gigabyte\n    - Terabyte\n    - Petabyte\n- Boolean algebra\n  Explain:\n    - A Boolean proposition\n    - Truth values\n    - Logical operators (AND, OR, NOT)\n    - Truth tables\n    - Laws of Boolean algebra\n      - Commutative\n      - Associative\n      - Distributive\n      - Identity\n    - Logical expressions",
+  "metadata": {
+    "subject": "Computer Science",
+    "grade": "9",
+    "book_name": "Computer Science & IT",
+    "language": "English",
+    "chapter": "Unit 2: Binary Systems",
+    "topic": "Students' Learning Outcomes",
+    "subtopic": "",
+    "type": "learning_outcomes"
+  }
+},
+  {
+    "content": "2.1 Introduction to Number Systems\nA number system is the system for representation of numeric data. We all are familiar with decimal number system where each number consists of digits from 0 to 9. In a computer system, other number systems are also used. We discuss few number systems in the following sections.",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 2: Binary Systems",
+      "topic": "2.1 Introduction to Number Systems",
+      "subtopic": "",
+      "type": "theory"
+    }
+  },
+  {
+    "content": "2.1.1 Decimal\nThe number system we use in our daily life is the decimal number system. The decimal number system has base 10 as it uses ten digits [0-9]. Each position represents a specific power of base 10 as shown in Figure 2-1.\nExamples:\n    ■ 892 = 8 x 10² + 9 x 10¹ + 2 x 10⁰\n    ■ 1247 = 1 x 10³ + 2 x 10² + 4 x 10¹ + 7 x 10⁰\n    ■ 53 = 5 x 10¹ + 3 x 10⁰",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 2: Binary Systems",
+      "topic": "2.1 Introduction to Number Systems",
+      "subtopic": "2.1.1 Decimal",
+      "type": "theory"
+    }
+  },
+  {
+    "content": "2.1.2 Binary\nBinary number system has base 2 as all the numbers in this system consist of only two digits i.e. 0 and 1. Digital computers use this system to store data. Your name is in the form of alphabets, but for a computer each alphabet has some binary value.\nExample: The binary value of the letter 'A' is 01000001 and its decimal value is 65.",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 2: Binary Systems",
+      "topic": "2.1 Introduction to Number Systems",
+      "subtopic": "2.1.2 Binary",
+      "type": "theory"
+    }
+  },
+  {
+    "content": "2.1.3 Hexadecimal\nHexadecimal system has total 16 numbers, i.e., 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F, where A=10, B=11, C=12, D=13, E=14 and F=15 (as shown in Figure 2-2).",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 2: Binary Systems",
+      "topic": "2.1 Introduction to Number Systems",
+      "subtopic": "2.1.3 Hexadecimal",
+      "type": "theory"
+    }
+  },
+  {
+    "content": "2.2. Number System Conversion\nWe can convert a number from one number system to another and vice versa. In the following, we discuss conversions among different number systems.",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 2: Binary Systems",
+      "topic": "2.2 Number System Conversion",
+      "subtopic": "",
+      "type": "theory"
+    }
+  },
+  {
+    "content": "2.2.1 Decimal to Binary and Binary to Decimal\n- Decimal to Binary\n  To convert a decimal number to binary, we divide the number by 2 and take quotient and remainder. We continue dividing the quotient by 2 until we get quotient 0. We write out all the remainders in reverse order to obtain the value in binary.",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 2: Binary Systems",
+      "topic": "2.2 Number System Conversion",
+      "subtopic": "2.2.1 Decimal to Binary and Binary to Decimal",
+      "type": "theory"
+    }
+  },
+  {
+    "content": "Activity 2.1\nHow many marks did you obtain in the final examination of 8th class? Convert that figure to binary and discuss the result with your class fellows.",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 2: Binary Systems",
+      "topic": "2.2 Number System Conversion",
+      "subtopic": "2.2.1 Decimal to Binary and Binary to Decimal",
+      "type": "activity 2.1 "
+    }
+  },
+  {
+    "content": "- Binary to Decimal\n  The conversion of a number from binary number system to decimal number system is explained below with the help of an example.\n  Example: Convert (1000001)₂ to decimal\n               = 1 x 2⁶ + 0 x 2⁵ + 0 x 2⁴ + 0 x 2³ + 0 x 2² + 0 x 2¹ + 1 x 2⁰\n               = 64 + 0 + 0 + 0 + 0 + 0 + 0 + 1\n               = (65)₁₀\n\n  The above conversion is done by the following steps.\n  Step 1. Write down the binary number which is (1000001)₂ in this example.\n  Step 2. List the powers of two from right to left starting with 0. In this example, the power of 2 starts from 0 and ends at 6.\n  Step 3. Multiply 2's corresponding powers to each binary value. In the above example there are 7 binary values.\n  Step 4. Compute each value.\n  Step 5. Add all the values.\n  Step 6. Write the answer along with its base subscript",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 2: Binary Systems",
+      "topic": "2.2 Number System Conversion",
+      "subtopic": "2.2.1 Decimal to Binary and Binary to Decimal",
+      "type": "theory"
+    }
+  },
+  {
+    "content": "Activity 2.2\nExchange your marks in binary form with your friends and convert them in decimal to know about their expectations in the board examination of 9th class. Double check with your class fellows that how much your calculations are accurate.",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 2: Binary Systems",
+      "topic": "2.2 Number System Conversion",
+      "subtopic": "2.2.1 Decimal to Binary and Binary to Decimal",
+      "type": "activity 2.2"
+    }
+  },
+  {
+    "content": "Activity 2.3\nAccording to Table 2-2, write in decimal, binary, and hexadecimal the time of your:\n    ■ arrival at school\n    ■ lunch\n    ■ playing",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 2: Binary Systems",
+      "topic": "2.2 Number System Conversion",
+      "subtopic": "2.2.1 Decimal to Binary and Binary to Decimal",
+      "type": "activity 2.3"
+    }
+  },
+  {
+    "content": "Table 2-2\nDecimal    Binary    Hexadecimal\n0          0000      0\n1          0001      1\n2          0010      2\n3          0011      3\n4          0100      4\n5          0101      5\n6          0110      6\n7          0111      7\n8          1000      8\n9          1001      9\n10         1010      A\n11         1011      B\n12         1100      C\n13         1101      D\n14         1110      E\n15         1111      F\n16         10000     10\n17         10001     11\n18         10010     12\n19         10011     13\n20         10100     14",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 2: Binary Systems",
+      "topic": "2.2 Number System Conversion",
+      "subtopic": "2.2.1 Decimal to Binary and Binary to Decimal",
+      "type": "table"
+    }
+  },
+  {
+    "content": "Activity 2.4\nMany online converters for number systems are available. Try to find and use them. You can ask your classteacher to help in searching.",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 2: Binary Systems",
+      "topic": "2.2 Number System Conversion",
+      "subtopic": "2.2.1 Decimal to Binary and Binary to Decimal",
+      "type": "activity 2.4"
+    }
+  },
+  {
+    "content": "2.2.2 Decimal to Hexadecimal and Hexadecimal to Decimal",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 2: Binary Systems",
+      "topic": "2.2 Number System Conversion",
+      "subtopic": "2.2.2 Decimal to Hexadecimal and Hexadecimal to Decimal",
+      "type": "theory"
+    }
+  },
+  {
+    "content": "- Decimal to Hexadecimal\n  As we have studied that hexadecimal number system has base 16, so for conversion of a number from decimal to hexadecimal, we divide the number by 16 and take both quotient and remainder. We continue dividing the quotient by 16 until the quotient becomes 0.\n\n  Example:\n  Convert (69610)₁₀ to Hexadecimal\n  Table 2-3 shows the method to solve this problem. We can observe from the table that remainder A is representation of 10, remainder E is representation of 14, and remainder F is representation of 15. Remainders are taken from bottom to top to present the hexadecimal number. So, (69610)₁₀ = (10FEA)₁₆.",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 2: Binary Systems",
+      "topic": "2.2 Number System Conversion",
+      "subtopic": "2.2.2 Decimal to Hexadecimal and Hexadecimal to Decimal",
+      "type": "theory"
+    }
+  },
+  {
+    "content": "Table 2-3\n16 | 69610 -> A -> E -> F -> 12 -> 1 -> 0 -> 0",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 2: Binary Systems",
+      "topic": "2.2 Number System Conversion",
+      "subtopic": "2.2.2 Decimal to Hexadecimal and Hexadecimal to Decimal",
+      "type": "table"
+    }
+  },
+  {
+    "content": "- Hexadecimal to Decimal\n  The method for this conversion is same as converting from binary to decimal except the base value. Since hexadecimal has base 16, the \"place values\" correspond to the powers of 16. To convert to decimal, multiply each place value by the corresponding power of 16. Start this process by writing the powers of sixteen next to the digits of a hexadecimal number.\n\n  Example: Convert (C921)₁₆ to decimal\n               = C x 16³ + 9 x 16² + 2 x 16¹ + 1 x 16⁰\n               = 12 x 4096 + 9 x 256 + 2 x 16 + 1 x 1\n               = 49152 + 2304 + 32 + 1\n               = (51489)₁₀",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 2: Binary Systems",
+      "topic": "2.2 Number System Conversion",
+      "subtopic": "2.2.2 Decimal to Hexadecimal and Hexadecimal to Decimal",
+      "type": "theory"
+    }
+  },
+  {
+    "content": "Activity 2.5\nTry to calculate the binary of C9216 which is 1100100100100001₂.",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 2: Binary Systems",
+      "topic": "2.2 Number System Conversion",
+      "subtopic": "2.2.2 Decimal to Hexadecimal and Hexadecimal to Decimal",
+      "type": "activity"
+    }
+  },
+  {
+    "content": "2.2.3 Hexadecimal to Binary and Binary to Hexadecimal",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 2: Binary Systems",
+      "topic": "2.2 Number System Conversion",
+      "subtopic": "2.2.3 Hexadecimal to Binary and Binary to Hexadecimal",
+      "type": "theory"
+    }
+  },
+  {
+    "content": "• Hexadecimal to Binary\n  To convert a hexadecimal number to binary, simply convert each hexadecimal digit to four digits binary value. To find the four digits binary value, see the Table 2-4.\n\nExample:\nConvert (A23)₁₆ (A23 in hexadecimal) to binary.\nIn this number, there are three hexadecimal digits. Binary of each digit is given as:\n   I. For A, the binary value is 1010\n  II. For 2, the binary value is 0010\n III. For 3, the binary value is 0011\nBy combining all the binary values, we get 1010 0010 0011.\nSo, (A23)₁₆ = (101000100011)₂",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 2: Binary Systems",
+      "topic": "2.2 Number System Conversion",
+      "subtopic": "2.2.3 Hexadecimal to Binary and Binary to Hexadecimal",
+      "type": "theory"
+    }
+  },
+  {
+    "content": "Example:\nConvert (70C558)₁₆ (70C558 in hexadecimal) to binary.\nIn this number, there are six hexadecimal digits and binary of each is given in different colours as:\n   I. For 7, the binary value is 0111\n  II. For 0, the binary value is 0000\n III. For C, the binary value is 1100\n  IV. For 5, the binary value is 0101\n   V. For 5, the binary value is 0101\n  VI. For 8, the binary value is 1000\nBy combining all the binary values, we get 0111 0000 1100 0101 0101 1000.\nSo, (70C558)₁₆ = (11110000110010101011000)₂",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 2: Binary Systems",
+      "topic": "2.2 Number System Conversion",
+      "subtopic": "2.2.3 Hexadecimal to Binary and Binary to Hexadecimal",
+      "type": "theory"
+    }
+  },
+  {
+    "content": "• Binary to Hexadecimal\nThis conversion is also very easy with the help of Table 2-4. In the given binary number, we start making groups of four digits from right to left and replace every group with a hexadecimal digit.\n\nExample: Convert (11000001)₂ to hexadecimal:\nThe four digit binary groups in this binary number are given below where each group has four binary digits.\n1100 0001\n   I. For 1100, the hexadecimal is C\n  II. For 0001 the hexadecimal is 1\nSo, (11000001)₂ = (C1)₁₆\n\nWhile making groups from right to left, if the left group has less than 4 binary digits then we simply add 0s on the left. For example, 1010011 has groups 101 0011 and by adding one 0 on the left, it becomes 0101 0011.",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 2: Binary Systems",
+      "topic": "2.2 Number System Conversion",
+      "subtopic": "2.2.3 Hexadecimal to Binary and Binary to Hexadecimal",
+      "type": "theory"
+    }
+  },
+  {
+    "content": "Example: Convert (11010111)₂ to hexadecimal\nThe groups in this binary number are given below where each group has maximum four binary digits.\n11010 1111\nThe left most group in blue colour has only 1 binary digit and by adding 0s, we get:\n0001 1010 1111\nWe replace each group with the respective hexadecimal and get:\n1A.F.\nSo, (11010111)₂ = (1AF)₁₆",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 2: Binary Systems",
+      "topic": "2.2 Number System Conversion",
+      "subtopic": "2.2.3 Hexadecimal to Binary and Binary to Hexadecimal",
+      "type": "theory"
+    }
+  },
+  {
+    "content": "2.3 Memory and Data Storage",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 2: Binary Systems",
+      "topic": "2.3 Memory and Data Storage",
+      "subtopic": "",
+      "type": "theory"
+    }
+  },
+  {
+    "content": "2.3.1 Memory\nComputer memory is any physical device capable of storing data. Primarily there are following two types of memory.\n   1- Volatile Memory\n   2- Non-Volatile Memory\n\nBoth types of computer memories are shown in Figure 2-4. In the following, we discuss these two types in detail.\n\n• Volatile Memory (Primary Storage)\nA device which holds data as long as it has power supply connected to it, is called Volatile Memory. Its best example is Random Access Memory (RAM), which holds memory only as long as it is connected to power source. As soon as the power supply is disconnected, all the data in RAM is cleared.\n\n• Non-Volatile Memory (Secondary Storage)\nA device which can hold data even if it is not connected to any power source, is called Non Volatile Memory. The typical examples for Non Volatile Memory are hard drives, flash drives and memory cards installed in cell phones. Even if you turn off your PC, the data in your hard drive or flash drive stays intact.",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 2: Binary Systems",
+      "topic": "2.3 Memory and Data Storage",
+      "subtopic": "2.3.1 Memory",
+      "type": "theory"
+    }
+  },
+  {
+    "content": "2.3.2 Data Representation in Computer Memory\nDigital computers store data in binary form. It means that whether it is a text, picture, movie or some application, it is stored in computers memory in the form of 0s and 1s. All the characters on your keyboard has an associated code in binary. This code is called ASCII code of the character. ASCII stands for American Standard Code for Information Interchange. It is a de-facto standard for representation of data inside computer's memory. Table 2-5 presents the ASCII table which shows the code against each character on your keyboard. The codes are given in decimal form, but inside computer's memory they are represented after conversion to binary form.",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 2: Binary Systems",
+      "topic": "2.3 Memory and Data Storage",
+      "subtopic": "2.3.2 Data Representation in Computer Memory",
+      "type": "theory"
+    }
+  },
+  {
+    "content": "Activity 2.6\nWrite your complete name and give its presentation in binary format.",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 2: Binary Systems",
+      "topic": "2.3 Memory and Data Storage",
+      "subtopic": "2.3.2 Data Representation in Computer Memory",
+      "type": "activity"
+    }
+  },
+  {
+    "content": "2.3.3 Storage Device\nAny computing hardware that is used for storing, porting and extracting data, is called a storage device. It can hold or store information both temporarily and permanently. It can also be internal or external to a computer. An external storage device is a plug and play device, i.e., we just plug it to some port and start using it without turning off a computer. To attach an internal storage device (Hard disk or RAM) we need to turn off the computer. Internal storage devices are connected to some fixed slots.\nExamples: RAM, Hard disk, CD, USB Flash Drive, etc.",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 2: Binary Systems",
+      "topic": "2.3 Memory and Data Storage",
+      "subtopic": "2.3.3 Storage Device",
+      "type": "theory"
+    }
+  },
+  {
+    "content": "Difference between memory and storage\nTable 2-7 shows the difference between memory and storage.\n\nMemory                Storage\nPlace where an application loads its data during processing    Usually the place where data is stored for long or short term.\nTemporary storage device    Permanent storage device\nLesser in size            Greater in size\nHigh accessing speed      Low accessing speed\nIt is called primary memory  It is called secondary memory",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 2: Binary Systems",
+      "topic": "2.3 Memory and Data Storage",
+      "subtopic": "2.3.3 Storage Device",
+      "type": "table"
+    }
+  },
+  {
+    "content": "2.4 Measurement of Size of Computer Memory\nThe smallest amount of data to be stored in computer's memory is a 0 or 1. It is called a bit. A collection of eight bits is called a byte. At least one byte is required to store any piece of information in a computer's storage. On both primary and secondary storage devices, data is stored in the form of bytes. In Table 2-8 different units of data are given.",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 2: Binary Systems",
+      "topic": "2.4 Measurement of Size of Computer Memory",
+      "subtopic": "",
+      "type": "theory"
+    }
+  },
+  {
+    "content": "Unit       Size\nBit        Smallest unit of data, can hold only one value: 0 or 1\nByte       Group of eight bits, enough space to store single ASCII character\nKilobyte   1KB = 1,024 bytes\nMegabyte   1MB = (1,024) KB or (1,024) bytes\nGigabyte   1GB = 1,024 MB or (1,024) bytes\nTerabyte   1TB = 1,024 GB or (1,024) bytes\nPetabyte   1PB = 1,024 TB or (1,024) bytes",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 2: Binary Systems",
+      "topic": "2.4 Measurement of Size of Computer Memory",
+      "subtopic": "Table 2-8 Units of data",
+      "type": "table"
+    }
+  },
+  {
+    "content": "2.5.1 Boolean Proposition\nA proposition is a sentence that can either be true or false. For example, the following sentences are propositions.\n   1. \"Someone from our school can join Pakistani Cricket Team\"\n   2. \"I will get A+ grade in board exam\"\n   3. \"I want to excel in mathematics\"\n   4. \"This year Pakistan Super League (PSL) final match will be played in Lahore\"\n   5. \"I play chess\".\n\nBut the following sentences are not propositions\n   1. How are you?\n   2. Close the door.\n   3. Is it hot outside?\n\nWe can also assign some letter to a proposition, as shown in the following.\n   1- P = \"I play chess\".\n   2- Q = \"I want to excel in mathematics\".\n\nNow, when we say P, it means that we are referring to proposition \"I play chess\"; and when we say Q, it means that we are referring to proposition \"I want to excel in mathematics\".\n\nDo you know?\nTrue and False are called Boolean values. The idea was given by George Boole (2 November 1815 – 8 December 1864) in his book \"The Laws of Thought\".",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 2: Binary Systems",
+      "topic": "2.5 Boolean Algebra",
+      "subtopic": "2.5.1 Boolean Proposition",
+      "type": "theory"
+    }
+  },
+  {
+    "content": "2.5.2 Truth Values\nEvery proposition takes one of two values true or false, and these values are called the truth values. Truth value is given on the basis of truthfulness or falsity of a proposition.\n\nExample:\nAssume P = \"Islamabad is the capital of Pakistan\". You can assign the truth value true to this proposition. Now assume another proposition Q = \"The sun rises in the west\". The truth value for this proposition is false. If we have proposition R = \"I have completed my homework\", then the truth value depends on the person who is assigning it. If a person has completed his homework then he can assign truth value true, otherwise false.",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 2: Binary Systems",
+      "topic": "2.5 Boolean Algebra",
+      "subtopic": "2.5.2 Truth Values",
+      "type": "theory"
+    }
+  },
+  {
+    "content": "2.5.3 Logical Operators (AND, OR, NOT)\nSometimes we assemble more than one propositions to make one proposition called a compound proposition. For example if we have the following two propositions:\n   1. Today is Monday\n   2. I am in school\n\nThen \"Today is Monday AND I am in school\" is a compound proposition. Truth value of the compound proposition depends upon the truth values of the individual propositions and the logical operator used to connect the propositions. In this example \"AND\" is a logical operator. In the following, we discuss three most commonly used logical operators AND, OR and NOT.\n\nAND Operator (·): If we use \"AND\" operator to connect two or more propositions, then the compound proposition is true only if all the connected propositions are true. AND operator can also be denoted by a dot \".\" symbol. It means that P AND Q may also be written as P.Q.\n\nOR Operator (+): We can also use \"OR\" operator to connect two or more propositions e.g. \"Today is Monday OR I am in school\". In case of OR operator, the compound proposition is true if at least one proposition is true. In other words, the compound proposition is false only if all the propositions are false. OR operator can also be denoted by a plus \"+\" symbol. It means that P OR Q may also be written as P + Q.\n\nNOT Operator: The logical operator \"NOT\" is not a connector but it is used to negate a proposition. For example, if P = \"Today is Monday\" then NOT(P) means \"Today is not Monday\". So, with NOT operator a True value becomes false, and vice versa. Not operator can also be denoted by a \"~\" symbol. It means that NOT(P) may also be written as ~P.",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 2: Binary Systems",
+      "topic": "2.5 Boolean Algebra",
+      "subtopic": "2.5.3 Logical Operators (AND, OR, NOT)",
+      "type": "theory"
+    }
+  },
+  {
+    "content": "2.5.4 Truth Table\nA truth table is used to check whether a proposition is True or False. Usually it is used to check the truth value of a proposition where some logical operator is used. In the following, we discuss the truth tables for AND, OR and NOT operators.\n\nTruth Table for AND operator: The truth table for P AND Q is given in Table 2-9. The first two columns are showing all the possible combinations of truth values of propositions P and Q, the third column is showing the resultant truth value of P AND Q. Assume:\n   P = It is raining\n   Q = Today is Sunday\n   P AND Q = It is raining and today is Sunday\n\nIf both P and Q are True then the P AND Q is also True, it means \"It is raining on Sunday\". This situation is shown on Row 1 of Table 2-9. Suppose it is raining but not on Sunday. Then P is True and Q is False due to which P AND Q is also False (row 2 of Table 2-9). In row 3 of Table 2-9, P is False and Q is True. It means \"It is not raining on Sunday\" which results in False value of P AND Q. In the last row both P and Q are False, which means \"It is neither raining nor Sunday\". So, the proposition \"It is raining and today is Sunday\" is false (row 4 of Table 2-9).\n\nTable 2-9",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 2: Binary Systems",
+      "topic": "2.5 Boolean Algebra",
+      "subtopic": "2.5.4 Truth Table",
+      "type": "theory"
+    }
+  },
+  {
+    "content": "Truth Table for NOT operator: We can also make truth table where NOT operator is used. Negation (also called NOT) is an operator that reverses the nature of a value, i.e., a value True becomes False and vice versa. The truth table for NOT operator is shown in Table 2-11.\n\nTable 2-11",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 2: Binary Systems",
+      "topic": "2.5 Boolean Algebra",
+      "subtopic": "2.5.4 Truth Table",
+      "type": "theory"
+    }
+  },
+  {
+    "content": "Truth Table for complex Boolean expressions: We can make truth table for any combination of these operators. For example, if we need to make a truth table of \"It is not raining and today is Sunday\". It means the proposition NOT(P) AND Q.\nThe truth table for this compound proposition is shown Table 2-12.\n\nTable 2-12",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 2: Binary Systems",
+      "topic": "2.5 Boolean Algebra",
+      "subtopic": "2.5.4 Truth Table",
+      "type": "theory"
+    }
+  },
+  {
+    "content": "2.5.5 Laws of Boolean Algebra\nThe laws of Boolean Algebra, help us to simplify complex Boolean expressions. Some laws are discussed in the following.",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 2: Binary Systems",
+      "topic": "2.5 Boolean Algebra",
+      "subtopic": "2.5.5 Laws of Boolean Algebra",
+      "type": "theory"
+    }
+  },
+  {
+    "content": "• Commutative Law\nCommutative Law states that the order of application of two separate propositions is not important. So,\n   a) A.B = B.A (The order in which two variables are ANDed makes no difference.)\n   b) A + B = B + A (The order in which two variables are ORed makes no difference.)\n\nWe can use truth tables (Table 2-13a, Table 2-13b) to verify this law for AND and OR operations respectively.\n\nTable 2-13a\nTable 2-13b",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 2: Binary Systems",
+      "topic": "2.5 Boolean Algebra",
+      "subtopic": "2.5.5 Laws of Boolean Algebra",
+      "type": "theory"
+    }
+  },
+  {
+    "content": "• Distributive Law\nThis law is discussed in two ways, i.e., \"AND over OR\" and \"OR over AND\".\n   a) A.(B + C) = (A.B) + (A.C) (AND over OR)\n   b) A + (B . C) = (A + B).(A + C) (OR over AND)\nWe can verify the distributive law for (AND over OR) operation by using Table 2-16.",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 2: Binary Systems",
+      "topic": "2.5 Boolean Algebra",
+      "subtopic": "2.5.5 Laws of Boolean Algebra",
+      "type": "theory"
+    }
+  },
+  {
+    "content": "Activity 2.7\nDraw the truth table to verify A + (B · C) = (A + B) · (A + C)",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 2: Binary Systems",
+      "topic": "2.5 Boolean Algebra",
+      "subtopic": "2.5.5 Laws of Boolean Algebra",
+      "type": "activity"
+    }
+  },
+  {
+    "content": "• Identity Law\nIf a variable is OR'ed with a False, the result is always equal to that variable. And if a variable is AND'ed with a True, the result is always equal to that variable.\n   a) A OR False = A, A variable OR'ed with False is always equal to that variable\n   b) A AND True = A, A variable AND'ed with True is always equal to that variable",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 2: Binary Systems",
+      "topic": "2.5 Boolean Algebra",
+      "subtopic": "2.5.5 Laws of Boolean Algebra",
+      "type": "theory"
+    }
+  },
+  {
+    "content": "2.5.6 Logical Expressions\nWe get a logical expression when some logical operator is applied to the Boolean proposition(s). For example, P AND Q, ¬(P OR Q), P OR Q, etc., In the tables, Table 2-14, 2-15 and 2-16 the truth tables are according to some logical expressions.\n\nDo you know?\nBy negating a negative proposition, we get a positive proposition. For example,\n    • P=It is sunny today\n    • ¬P=It is not sunny today\n    • ¬¬P=It is sunny today\n\nSimilarly,\n    • Q=It is not Friday today\n    • ¬Q=It is Friday today\n    • ¬¬Q=It is not Friday today",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 2: Binary Systems",
+      "topic": "2.5 Boolean Algebra",
+      "subtopic": "2.5.6 Logical Expressions",
+      "type": "theory"
+    }
+  },
+  {
+    "content": "EXERCISE",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 2: Binary Systems",
+      "topic": "Exercise",
+      "subtopic": "",
+      "type": "exercise"
+    }
+  },
+  {
+    "content": "2.1 Multiple Choice Questions",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 2: Binary Systems",
+      "topic": "Exercise",
+      "subtopic": "2.1 Multiple Choice Questions",
+      "type": "mcq"
+    }
+  },
+  {
+    "content": "1. Expression [A + B].(A + C) is equal to ___ __\n   (i) A + (B.C)    (ii) A.B + A.C\n   (iii) A.(B.C)    (iv) A + (B + C)",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 2: Binary Systems",
+      "topic": "Exercise",
+      "subtopic": "2.1 Multiple Choice Questions",
+      "type": "mcq"
+    }
+  },
+  {
+    "content": "2. The order of application of two separate terms is not important in\n   (i) Associative Law    (ii) Commutative Law\n   (iii) Distributive Law (iv) Identity Law",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 2: Binary Systems",
+      "topic": "Exercise",
+      "subtopic": "2.1 Multiple Choice Questions",
+      "type": "mcq"
+    }
+  },
+  {
+    "content": "3. \"Is it cold outside\" is ____________\n   (i) Boolean Proposition    (ii) Categorical proposition\n   (iii) Moral propositions   (iv) None of above",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 2: Binary Systems",
+      "topic": "Exercise",
+      "subtopic": "2.1 Multiple Choice Questions",
+      "type": "mcq"
+    }
+  },
+  {
+    "content": "4. Number \"47\" is equal to ____ in binary system.\n   (i) 10000    (ii) 10110\n   (iii) 10001   (iv) 10100",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 2: Binary Systems",
+      "topic": "Exercise",
+      "subtopic": "2.1 Multiple Choice Questions",
+      "type": "mcq"
+    }
+  },
+  {
+    "content": "5. 1 Petabyte is equal to ____ __\n   (i) (1,024)4 bytes    (ii) (1,024)5 bytes\n   (iii) (1,024)6 bytes   (iv) (1,024)7 bytes",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 2: Binary Systems",
+      "topic": "Exercise",
+      "subtopic": "2.1 Multiple Choice Questions",
+      "type": "mcq"
+    }
+  },
+  {
+    "content": "6. Hexadecimal system has total ____ numbers.\n   (i) 17    (ii) 16\n   (iii) 18    (iv) 15",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 2: Binary Systems",
+      "topic": "Exercise",
+      "subtopic": "2.1 Multiple Choice Questions",
+      "type": "mcq"
+    }
+  },
+  {
+    "content": "2.2 Answer the following questions.",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 2: Binary Systems",
+      "topic": "Exercise",
+      "subtopic": "2.2 Answer the following questions",
+      "type": "short_answer"
+    }
+  },
+  {
+    "content": "1. Convert (69610)10 to Hexadecimal.",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 2: Binary Systems",
+      "topic": "Exercise",
+      "subtopic": "2.2 Answer the following questions",
+      "type": "short_answer"
+    }
+  },
+  {
+    "content": "2. Differentiate between volatile and non-volatile memory.",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 2: Binary Systems",
+      "topic": "Exercise",
+      "subtopic": "2.2 Answer the following questions",
+      "type": "short_answer"
+    }
+  },
+  {
+    "content": "3. Store the word \"Phone\" in computer memory starting from address 7003 where each letter needs one byte to store in the memory.",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 2: Binary Systems",
+      "topic": "Exercise",
+      "subtopic": "2.2 Answer the following questions",
+      "type": "short_answer"
+    }
+  },
+  {
+    "content": "4. Differentiate between temporary and permanent storage.",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 2: Binary Systems",
+      "topic": "Exercise",
+      "subtopic": "2.2 Answer the following questions",
+      "type": "short_answer"
+    }
+  },
+  {
+    "content": "5. Write the truth table for X AND Y where\n\nX = It is sunny\nY = Today is Monday",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 2: Binary Systems",
+      "topic": "Exercise",
+      "subtopic": "2.2 Answer the following questions",
+      "type": "short_answer"
+    }
+  },
+  {
+    "content": "2.3 Fill in the Blanks",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 2: Binary Systems",
+      "topic": "Exercise",
+      "subtopic": "2.3 Fill in the Blanks",
+      "type": "fill_in_the_blank"
+    }
+  },
+  {
+    "content": "1. Temporary memory is ____ and permanent memory is ____.",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 2: Binary Systems",
+      "topic": "Exercise",
+      "subtopic": "2.3 Fill in the Blanks",
+      "type": "fill_in_the_blank"
+    }
+  },
+  {
+    "content": "2. Data to a processor is provided through ____.",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 2: Binary Systems",
+      "topic": "Exercise",
+      "subtopic": "2.3 Fill in the Blanks",
+      "type": "fill_in_the_blank"
+    }
+  },
+  {
+    "content": "3. At least ____ byte is required to store any piece of information in a computer's memory.",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 2: Binary Systems",
+      "topic": "Exercise",
+      "subtopic": "2.3 Fill in the Blanks",
+      "type": "fill_in_the_blank"
+    }
+  },
+  {
+    "content": "4. ____ is used to assemble more than one propositions into one proposition.",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 2: Binary Systems",
+      "topic": "Exercise",
+      "subtopic": "2.3 Fill in the Blanks",
+      "type": "fill_in_the_blank"
+    }
+  },
+  {
+    "content": "5. In primary and secondary storages, data is stored in the form of ____.",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 2: Binary Systems",
+      "topic": "Exercise",
+      "subtopic": "2.3 Fill in the Blanks",
+      "type": "fill_in_the_blank"
+    }
+  },
+  {
+    "content": "6. According to ____ law there is no change in results if priority of expressions is changed.",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 2: Binary Systems",
+      "topic": "Exercise",
+      "subtopic": "2.3 Fill in the Blanks",
+      "type": "fill_in_the_blank"
+    }
+  },
+  {
+    "content": "2.4 Perform the following conversions",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 2: Binary Systems",
+      "topic": "Exercise",
+      "subtopic": "2.4 Perform the following conversions",
+      "type": "conversion"
+    }
+  },
+  {
+    "content": "1. (ABCD)15 to binary",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 2: Binary Systems",
+      "topic": "Exercise",
+      "subtopic": "2.4 Perform the following conversions",
+      "type": "conversion"
+    }
+  },
+  {
+    "content": "2. (0010110010001101001)2 to hexadecimal",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 2: Binary Systems",
+      "topic": "Exercise",
+      "subtopic": "2.4 Perform the following conversions",
+      "type": "conversion"
+    }
+  },
+  {
+    "content": "Activity 2.8\nTeacher will display a chart where alphabets and their codes are written. Class is divided into two groups and each group writes at least 5 names in binary format. The famous names are selected from Pakistan Independence movement e.g. \"Molana Muhammad Ali Johar\". Both groups exchange their data and produces original names. The group which deciphers the code to actual names in less time will win.",
+    "metadata": {
+      "subject": "Computer Science",
+      "grade": "9",
+      "book_name": "Computer Science & IT",
+      "language": "English",
+      "chapter": "Unit 2: Binary Systems",
+      "topic": "Exercise",
+      "subtopic": "Activity 2.8",
+      "type": "activity"
+    }
+  }
+]
+
+
+
+
+
+
+
+
+
+
+
+
