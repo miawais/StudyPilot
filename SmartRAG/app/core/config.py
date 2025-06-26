@@ -7,3 +7,7 @@ class AppConfig(BaseSettings):
     PINECONE_INDEX_NAME: str
     MODEL_NAME: str="llama3-8b-8192"
     EMBEDDING_MODEL_NAME: str="all-MiniLM-L6-v2"
+
+
+    class Config:
+        env_file = ".env"
