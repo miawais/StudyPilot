@@ -18,7 +18,7 @@ def read_logs():
     for log in logs:
         print(f"🧾 {log.timestamp} | {log.user_id}: {log.query}")
         print(f"🤖 Response: {log.response[:120]}...")
-        print(f"📎 Metadata: {log.metadata}")
+        print(f"📎 Metadata: {log.chunk_metadata}")
         print("-" * 50)
 
 if __name__ == "__main__":
