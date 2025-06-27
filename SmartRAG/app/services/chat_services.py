@@ -1,6 +1,8 @@
 from app.rag.reteriver import retrieve_relevant_chunks
 from app.rag.promptbuilder import build_prompt
 from app.rag.llmrunner import run_llm
+from db.database import SessionLocal
+from db.models import ChatLog
 import re
 
 def is_metadata_count_query(query: str) -> str | None:
@@ -63,7 +65,7 @@ def process_query(user_query: str, user_id: str = None, chat_history=None):
                 "metadata": []
             }
 
-    # 3️⃣ Default: RAG flow for concept/content questions
+    #RAG flow for concept/content questions
     prompt = build_prompt(retrieved_chunks, user_query, chat_history)
     answer = run_llm(prompt)
 
@@ -73,3 +75,15 @@ def process_query(user_query: str, user_id: str = None, chat_history=None):
         "response": answer,
         "metadata": [c["metadata"] for c in retrieved_chunks]
     }
+
+def log_chat(user_id, query, response, metadata):
+    db = SessionLocal()
+    log = ChatLog(
+        user_id=user_id,
+        query=query,
+        response=response,
+        metadata=metadata
+    )
+    db.add(log)
+    db.commit()
+    db.close()
