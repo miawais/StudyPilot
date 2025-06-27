@@ -54,6 +54,18 @@ def retrieve_relevant_chunks(query, top_k=30, filter_meta=None):
 
     return [
         {
+            "content": match["metadata"].get("text", ""),  
+            "metadata": {
+                **match["metadata"],                       
+                "score": match.get("score")                
+            }
+        }
+        for match in response.get("matches", [])
+    ]
+
+
+    return [
+        {
             "content": match["metadata"].get("text", ""),
             "metadata": match.get("metadata", {})
         }

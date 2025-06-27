@@ -1,12 +1,13 @@
+import re
+from typing import Optional, Tuple, List
 from app.rag.reteriver import retrieve_relevant_chunks
 from app.rag.promptbuilder import build_prompt
 from app.rag.llmrunner import run_llm
-from db.database import SessionLocal
-from db.models import ChatLog
-import re
+from app.db.database import SessionLocal
+from app.db.models import ChatLog
 
-def is_metadata_count_query(query: str) -> str | None:
-    """Detects if query is about 'how many' and returns type e.g. mcq/short_question"""
+# ✅ Detect count-based queries (e.g., "how many MCQs?")
+def is_metadata_count_query(query: str) -> Optional[str]:
     query = query.lower()
     if "how many" in query:
         if "mcq" in query or "multiple choice" in query:
@@ -19,8 +20,8 @@ def is_metadata_count_query(query: str) -> str | None:
             return "activity"
     return None
 
-def is_specific_item_query(query: str) -> tuple[str, int] | None:
-    """Detects if query asks for a specific number of a type"""
+# ✅ Detect item-specific queries (e.g., "What is MCQ 2?")
+def is_specific_item_query(query: str) -> Optional[Tuple[str, int]]:
     query = query.lower()
     match = re.search(r'(short question|long question|mcq|activity)[^\d]*(\d+)', query)
     if match:
@@ -29,14 +30,16 @@ def is_specific_item_query(query: str) -> tuple[str, int] | None:
         return type_name, number
     return None
 
+# ✅ Core processor
 def process_query(user_query: str, user_id: str = None, chat_history=None):
     retrieved_chunks = retrieve_relevant_chunks(user_query)
 
-    #Count-based metadata queries
+    # Count-based metadata queries
     type_to_count = is_metadata_count_query(user_query)
     if type_to_count:
         count = sum(1 for c in retrieved_chunks if c["metadata"].get("type") == type_to_count)
         answer = f"There are {count} {type_to_count.replace('_', ' ')}s in this chapter based on the textbook content."
+        log_chat(user_id, user_query, answer, [c["metadata"] for c in retrieved_chunks])
         return {
             "user_id": user_id,
             "query": user_query,
@@ -44,30 +47,28 @@ def process_query(user_query: str, user_id: str = None, chat_history=None):
             "metadata": [c["metadata"] for c in retrieved_chunks]
         }
 
-    #Specific item request 
+    # Specific item request
     item_info = is_specific_item_query(user_query)
     if item_info:
         type_name, index = item_info
         filtered = [c for c in retrieved_chunks if c["metadata"].get("type") == type_name]
         if 0 < index <= len(filtered):
             item = filtered[index - 1]
-            return {
-                "user_id": user_id,
-                "query": user_query,
-                "response": f"{type_name.replace('_', ' ').capitalize()} {index}: {item['content']}",
-                "metadata": [item["metadata"]]
-            }
+            response = f"{type_name.replace('_', ' ').capitalize()} {index}: {item['content']}"
         else:
-            return {
-                "user_id": user_id,
-                "query": user_query,
-                "response": f"Sorry, I couldn't find {type_name.replace('_', ' ')} number {index} in this chapter.",
-                "metadata": []
-            }
+            response = f"Sorry, I couldn't find {type_name.replace('_', ' ')} number {index} in this chapter."
+        log_chat(user_id, user_query, response, [c["metadata"] for c in retrieved_chunks])
+        return {
+            "user_id": user_id,
+            "query": user_query,
+            "response": response,
+            "metadata": [c["metadata"] for c in retrieved_chunks]
+        }
 
-    #RAG flow for concept/content questions
+    # RAG flow for concept/content questions
     prompt = build_prompt(retrieved_chunks, user_query, chat_history)
     answer = run_llm(prompt)
+    log_chat(user_id, user_query, answer, [c["metadata"] for c in retrieved_chunks])
 
     return {
         "user_id": user_id,
@@ -76,13 +77,14 @@ def process_query(user_query: str, user_id: str = None, chat_history=None):
         "metadata": [c["metadata"] for c in retrieved_chunks]
     }
 
-def log_chat(user_id, query, response, metadata):
+# ✅ Logging helper
+def log_chat(user_id, user_query, response, metadata):
     db = SessionLocal()
     log = ChatLog(
         user_id=user_id,
-        query=query,
+        query=user_query,
         response=response,
-        metadata=metadata
+        metadata=metadata  
     )
     db.add(log)
     db.commit()

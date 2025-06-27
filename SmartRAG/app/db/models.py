@@ -1,7 +1,7 @@
 from sqlalchemy import Column, Integer, String, Text, DateTime
-from sqlalchemy.types import JSON
+from sqlalchemy.types import JSON  
 from datetime import datetime
-from db.database import Base
+from app.db.database import Base
 
 class ChatLog(Base):
     __tablename__ = "chat_logs"
@@ -10,5 +10,5 @@ class ChatLog(Base):
     user_id = Column(String, index=True)
     query = Column(Text)
     response = Column(Text)
-    metadata = Column(JSON)
+    metadata = Column(JSON)  
     timestamp = Column(DateTime, default=datetime.utcnow)
