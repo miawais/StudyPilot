@@ -1,6 +1,6 @@
 import pinecone
 import re
-from rag.embedder import embed_text
+from app.rag.embedder import embed_text
 from core.config import config
 
 pinecone.init(api_key=config.PINECONE_API_KEY, environment=config.PINECONE_ENVIRONMENT)
