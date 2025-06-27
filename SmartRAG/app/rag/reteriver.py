@@ -1,10 +1,11 @@
-import pinecone
+from pinecone import Pinecone
 import re
 from app.rag.embedder import embed_text
-from core.config import config
+from app.core.config import config
 
-pinecone.init(api_key=config.PINECONE_API_KEY, environment=config.PINECONE_ENVIRONMENT)
-index = pinecone.Index(config.PINECONE_INDEX_NAME)
+# pinecone.init(api_key=config.PINECONE_API_KEY, environment=config.PINECONE_ENVIRONMENT)
+pc = Pinecone(api_key=config.PINECONE_API_KEY)
+index = pc.Index(config.PINECONE_INDEX_NAME)
 
 def extract_metadata_from_query(query: str):
     query = query.lower()
