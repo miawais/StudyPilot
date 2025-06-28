@@ -1,19 +1,25 @@
-from fastapi import APIRouter, Request
+from fastapi import APIRouter, Depends
 from pydantic import BaseModel
+from typing import List, Dict
+
 from app.services.chat_services import process_query
+from app.services.dependencies import get_current_user
+from app.db.models import User
 
 router = APIRouter()
 
 class AskRequest(BaseModel):
-    user_id: str
     query: str
-    history: list[dict] = []  
+    history: List[Dict] = []
 
 @router.post("/ask")
-async def ask_question(request: AskRequest):
+async def ask_question(
+    request: AskRequest,
+    current_user: User = Depends(get_current_user)
+):
     result = process_query(
         user_query=request.query,
-        user_id=request.user_id,
+        user_id=str(current_user.id),
         chat_history=request.history
     )
     return result
