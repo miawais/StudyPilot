@@ -1,11 +1,9 @@
-import sys
-import os
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..")))
+from app.db.database import engine, Base
+from app.db import models 
 
-from app.db.database import Base, engine
-from app.db.models import ChatLog
+def init_db():
+    Base.metadata.create_all(bind=engine)
 
-
-Base.metadata.create_all(bind=engine)
-
-print("✅ Database initialized! Table 'chat_logs' created.")
+if __name__ == "__main__":
+    init_db()
+    print("Tables created successfully.")
