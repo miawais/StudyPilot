@@ -7,7 +7,8 @@ class ChatLog(Base):
     __tablename__ = "chat_logs"
 
     id = Column(Integer, primary_key=True, index=True)
-    user_id = Column(String, index=True)  # Keep as string for now (token's sub value)
+    user_id = Column(String, index=True) 
+    username=Column(String,index=True) #to track user name in chat logs
     query = Column(Text)
     response = Column(Text)
     chunk_metadata = Column(JSON)  

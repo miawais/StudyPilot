@@ -15,11 +15,11 @@ class AskRequest(BaseModel):
 @router.post("/ask")
 async def ask_question(
     request: AskRequest,
-    current_user: User = Depends(get_current_user)
+    user: User = Depends(get_current_user)
 ):
     result = process_query(
         user_query=request.query,
-        user_id=str(current_user.id),
+        user=user,  
         chat_history=request.history
     )
     return result
