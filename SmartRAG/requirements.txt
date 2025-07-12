@@ -4,7 +4,6 @@ uvicorn[standard]>=0.24.0
 
 # Database and ORM
 sqlalchemy>=2.0.0
-sqlite3
 
 # Authentication and security
 python-jose[cryptography]>=3.3.0
