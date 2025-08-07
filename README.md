@@ -1,10 +1,10 @@
-# 📖 StudyPilot: AI-Powered Learning Companion for Students
+# StudyPilot: AI-Powered Learning Companion for Students
 
 StudyPilot is an AI-driven educational platform designed to align students with their curriculum, streamline exam preparation, and personalize learning experiences. It leverages state-of-the-art Large Language Models (LLMs), smart retrieval techniques, and structured educational content to deliver precise, curriculum-aligned responses.
 
 ---
 
-## 🎓 Core Features
+## Core Features
 
 * **Curriculum-Aware Q\&A**: Ask any question from your textbook and get precise, source-aligned answers.
 * **Smart Retrieval (RAG)**: Uses vector search with metadata filtering for accurate context selection.
@@ -15,7 +15,7 @@ StudyPilot is an AI-driven educational platform designed to align students with 
 
 ---
 
-## 📊 Impact
+## Impact
 
 StudyPilot helps students:
 
@@ -26,34 +26,34 @@ StudyPilot helps students:
 
 ---
 
-## 🚀 Tech Stack
+## Tech Stack
 
-### 🧠 AI & NLP
+### AI & NLP
 
 * **LLMs**: LLaMA 3 (via GROQ), Gemini 1.5 Pro (Google AI Studio)
 * **Embeddings**: Sentence Transformers (MiniLM, BGE)
 * **Prompting**: Dynamic system prompt with embedded context chunks
 
-### 📂 Data Processing
+### Data Processing
 
 * **Sources**: DOCX / Scanned PDFs (OCR supported)
 * **Pipeline**: Chunking, cleaning, metadata tagging (chapter, topic, type)
 * **Schema**: JSON with nested metadata
 
-### 🔎 Retrieval System
+### Retrieval System
 
 * **Vector Store**: Pinecone (384D embeddings)
 * **Filtering**: Multi-key metadata filtering (chapter, type, subtopic, etc.)
 * **Retriever**: Hybrid dense search with fallback strategies
 
-### 🧰 MLOps
+### MLOps
 
 * **Versioning**: DVC for datasets & vector versions
 * **Monitoring**: Weights & Biases / MLflow for prompt evaluations
 * **Logging**: Query, retrieved context, prompt, and response tracking
 * **Feedback Loop**: Intent + outcome evaluation from users
 
-### 🛠️ Platform Infrastructure
+### Platform Infrastructure
 
 * **Backend**: Python (FastAPI planned)
 * **UI**: CLI / Jupyter prototype (React Web App planned)
@@ -62,7 +62,7 @@ StudyPilot helps students:
 
 ---
 
-## 🔄 Example Pipeline Flow
+## Example Pipeline Flow
 
 1. **User Input**: "What is Activity 1.2 in Chapter 1?"
 2. **Query Preprocessing**: Normalization + Intent Parsing
@@ -73,7 +73,7 @@ StudyPilot helps students:
 
 ---
 
-## 📃 Dataset Format
+## Dataset Format
 
 ```json
 {
@@ -96,7 +96,7 @@ StudyPilot helps students:
 
 ---
 
-## 🌐 Future Plans
+## Future Plans
 
 * ✅ Add full UI-based experience (student dashboard, quiz mode)
 * ✅ Model feedback tuning with Reinforcement Learning from Human Feedback (RLHF)
@@ -105,22 +105,21 @@ StudyPilot helps students:
 
 ---
 
-## 💼 Author
+## Author
 
 **Awais** - AI Engineer | Creator of StudyPilot
 
 ---
 
-## 🏁 Contributing
+## Contributing
 
 Pull requests are welcome! For feature ideas or bug reports, please open an issue.
 
 ---
-
-## ❤️ License
 
 [MIT](LICENSE)
 
 ---
 
 > Empowering every student with AI to unlock their full academic potential.
+
