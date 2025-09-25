@@ -17,7 +17,7 @@ StudyPilot is an AI-driven educational platform designed to align students with 
 
 ## Impact
 
-StudyPilot helps students :
+StudyPilot helps students 
 
 * Stay aligned with educational outcomes and syllabus goals
 * Understand and revise textbook content more efficiently
@@ -122,6 +122,7 @@ Pull requests are welcome! For feature ideas or bug reports, please open an issu
 ---
 
 > Empowering every student with AI to unlock their full academic potential.
+
 
 
 
